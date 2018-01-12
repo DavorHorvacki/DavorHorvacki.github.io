@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pitalice C++</title>
+    <!-- FONT SCHOOLBELL-->
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Cabin+Sketch" rel="stylesheet">
+    <!-- BOOTSTRAP CSS-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FONT AWESOME FOR ICONS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NORMALIZE.CSS GLITCH FIX -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- PERSONAL - LOCAL CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- JQUERY SCRIPT-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- JQUERY SLIM-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <!-- POOPER JS FOR IMG SLIDER-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <!-- BOOTSTRAP SCRIPT-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- PERSONAL SCRIPT FILE-->
+    <script src="javascript.js"></script>
+
+</head>
+<body id="page-top" data-spy="scroll" data-target="nav" >
+
+<!-- Top Navigation -->
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top" id="nav">
+    <div class="container-fluid">
+
+        <!-- Progress Animation On Scroll -->
+
+        <div class="progressContainer">
+            <div id="progress" class="progress"></div>
+        </div>
+
+        <!-- Progress Animation On Scroll End -->
+
+        <div class="navbar-header">
+
+            <!-- Toggle button -->
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navigation" aria-expanded="false">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Toggle button -->
+
+            <!-- Brand -->
+
+            <a class="navbar-brand" href="#section1" style="font-family: 'Cabin Sketch', cursive;color: white;font-weight: bolder;font-size: 30px;">
+               <p>Butchery</p>
+            </a>
+
+            <!-- Brand End -->
+
+        </div>
+        <div class="collapse navbar-collapse" id="top-navigation">
+
+            <!-- Top Navigation Links -->
+
+            <ul class="nav navbar-nav navbar-right"  style="font-family: 'Cabin Sketch', cursive;color: white;font-weight: bolder;font-size: 30px;">
+                <li><a href="#section2">O aplikaciji</a></li>
+                <li><a href="#section3" >Preuzmi aplikaciju</a></li>
+                <li><a href="#section4" >Galerija</a></li>
+                <li><a href="#section5" >O nama</a></li>
+                <li><a href="#section6" >Deo za admine</a></li>
+            </ul>
+
+            <!-- Top Navigation Links End -->
+
+        </div>
+    </div>
+</nav>
+
+<!-- Top Navigation End -->
+
+<!-- Sections -->
+
+<!-- Section 1 -->
+
+<section class="section1" id="section1" style="background-image: url('pozadina.jpg');">
+
+    <div style=" position: absolute; top: -6%; bottom:0; left: 0; right:0;margin: auto;height: 35%;text-align: center;">
+    <img src="pitalice_logo.png" alt="logo" >
+    <div style="font-family: 'Cabin Sketch',cursive;margin-top: -2%;font-size: 35px;font-weight: bolder;">Preuzmi aplikaciju i sa svog smartfona odgovaraj profesoru na dnevna C++ pitanja.</div>
+    </div>
+
+
+</section>
+
+<!-- Section 1 End -->
+
+<!-- Section 2 -->
+
+<section class="section2" id="section2" style="background-image: url('pozadina.jpg');text-align: center;font-family: Calibri">
+
+    <p style="text-align: center;font-size: 40px;width: 70%;margin: auto;padding-top: 10%;font-weight: bolder;text-decoration: underline">Šta nudi aplikacija?</p>
+    <p style="text-align: center;font-size: 30px;width: 80%;margin: auto;padding-top: 2%;font-weight: bolder">
+        Pitalice C++ je aplikacija koja korisnicima nudi da odgovore na pitanja u elektronskoj formi.
+        Uz jednostavnu registraciju i prijavu putem mobilnog uređaja u mogućnosti ste da od kuće profesoru odgovarate na pitanja iz oblasti C++ programiranja.
+        Jednom dnevno preuzmite pitanje na koje morate da odgovorite, a zatim ocenite težinu pitanja. Imate i opciju da vidite svoju statisiku
+        i na taj način proverite na koliko pitanja ste dali tačan odgovor. Svaki korisnik dobija drugačije pitanje tako da nemate mogućnosti da proverite
+        kako su vaše kolege odgovorile.
+    </p>
+
+
+
+
+
+</section>
+
+<!-- Section 2 End -->
+
+<!-- Section 3 -->
+
+<section class="section3" id="section3" style="background-image: url('pozadina.jpg');text-align: center;">
+
+    <p style="text-align: center;font-size: 35px;width: 70%;margin: auto;padding-top: 17%;font-family: 'Cabin Sketch';font-weight: bolder">Budi i ti jedan od mnogih zadovoljnih korisnika ove aplikacije !</p>
+    <script>
+        function download(){
+            document.location = "download.php";
+        }
+    </script>
+    <button onclick="download()" class="downloadbutton">Preuzmi aplikaciju &nbsp;
+        <i class="fa fa-download" aria-hidden="true"></i></button>
+    <br/><br/><br/>
+
+</section>
+
+<!-- Section 3 End -->
+
+<!-- Section 4 -->
+
+<section class="section4" id="section4" style="background-image: url('pozadina.jpg');">
+
+    <div style="overflow: hidden;padding-top: 6%;">
+    <div style="text-align: center" class="col-xs-3 col-sm-3 col-lg-3 img-responsive" ><img src="clanovi/slike/Screenshot_20180112-175054.png" width="50%;"></div>
+    <div style="text-align: center" class="col-xs-3 col-sm-3 col-lg-3 img-responsive" ><img src="clanovi/slike/Screenshot_20180112-175105.png" width="50%;"></div>
+    <div style="text-align: center" class="col-xs-3 col-sm-3 col-lg-3 img-responsive" ><img src="clanovi/slike/Screenshot_20180112-175121.png" width="50%;"></div>
+    <div style="text-align: center" class="col-xs-3 col-sm-3 col-lg-3 img-responsive" ><img src="clanovi/slike/Screenshot_20180112-175130.png" width="50%;"></div>
+</div>
+    <div style="overflow: hidden;padding-top: 1%;">
+    <div style="text-align: center" class="col-xs-3 col-sm-3 col-lg-3 img-responsive" ><img src="clanovi/slike/Screenshot_20180112-175146.png" width="50%;"></div>
+    <div style="text-align: center" class="col-xs-3 col-sm-3 col-lg-3 img-responsive" ><img src="clanovi/slike/Screenshot_20180112-175217.png" width="50%;"></div>
+    <div style="text-align: center" class="col-xs-3 col-sm-3 col-lg-3 img-responsive" ><img src="clanovi/slike/Screenshot_20180112-175342.png" width="50%;"></div>
+    </div>
+
+
+
+
+
+</section>
+
+<!-- Section 4 End -->
+
+<!-- Section 5 -->
+
+<section class="section5" id="section5" style="background-image: url('pozadina.jpg');">
+
+    <div style="float: left;width: 50%;height: 100%">
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <section class="team"  >
+            <div class="container" style="width: 100%;height: 100%">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="col-lg-12">
+                            <h3 class="description">Naš tim</h3>
+                            <div class="row pt-md">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile">
+                                    <div class="img-box">
+                                        <img src="clanovi/davor.png"  class="img-responsive" style="height: 223px;object-fit: cover;">
+                                        <ul class="text-center">
+                                            <a href="https://www.facebook.com/davor.horvacki"><li><i class="fa fa-facebook"></i></li></a>
+                                            <a href="https://www.instagram.com/_hawkins_96/"><li><i class="fa fa-instagram"></i></li></a>
+                                        </ul>
+                                    </div>
+                                    <h1 style="text-align: center;text-decoration: underline">Horvacki Davor</h1>
+                                    <h2 style="text-align: center"> Scrum Master, Android, PHP, MySQL</h2>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile">
+                                    <div class="img-box">
+                                        <img src="clanovi/milan.JPG" class="img-responsive" style="height: 223px;">
+                                        <ul class="text-center">
+                                            <a href="https://www.facebook.com/milan15"><li><i class="fa fa-facebook"></i></li></a>
+                                            <a href="https://www.instagram.com/lezbaca/"><li><i class="fa fa-instagram"></i></li></a>
+                                        </ul>
+                                    </div>
+                                    <h1 style="text-align: center;text-decoration: underline">Buljovčić Milan</h1>
+                                    <h2 style="text-align: center">Android</h2>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile">
+                                    <div class="img-box">
+                                        <img src="clanovi/milos.jpg" class="img-responsive" style="height: 223px;">
+                                        <ul class="text-center">
+                                            <a href="https://www.facebook.com/losMi.M"><li><i class="fa fa-facebook"></i></li></a>
+                                            <a href="https://www.instagram.com/milosmijatovicc"><li><i class="fa fa-instagram"></i></li></a>
+                                        </ul>
+                                    </div>
+                                    <h1 style="text-align: center;text-decoration: underline">Mijatović Miloš</h1>
+                                    <h2 style="text-align: center"> Android, CSS, HTML, Bootstrap</h2>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile">
+                                    <div class="img-box">
+                                        <img src="clanovi/bibic.JPG" class="img-responsive" style="height: 223px;object-fit: cover;">
+                                        <ul class="text-center">
+                                            <a href="https://www.facebook.com/bileprolik"><li><i class="fa fa-facebook"></i></li></a>
+                                            <a href="https://www.instagram.com/bili_biku"><li><i class="fa fa-instagram"></i></li></a>
+
+                                        </ul>
+                                    </div>
+                                    <h1 style="text-align: center;text-decoration: underline">Bibić Nikola</h1>
+                                    <h2 style="text-align: center">MySQL, Debugger</h2>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile">
+                                    <div class="img-box">
+                                        <img src="clanovi/daniel.jpg" class="img-responsive" style="height: 223px;object-fit: cover;">
+                                        <ul class="text-center">
+                                            <a href="https://www.facebook.com/daniel.tesmanovic"><li><i class="fa fa-facebook"></i></li></a>
+                                            <a href="https://www.instagram.com/teshma_"><li><i class="fa fa-instagram"></i></li></a>
+                                        </ul>
+                                    </div>
+                                    <h1 style="text-align: center;text-decoration: underline">Tešmanović Daniel</h1>
+                                    <h2 style="text-align: center"> HTML, JavaScript (jQuery), Android</h2>
+
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile">
+                                    <div class="img-box">
+                                        <img src="clanovi/zabac.JPG" class="img-responsive" style="height: 223px;object-fit: cover;">
+                                        <ul class="text-center">
+                                            <a href="https://www.facebook.com/nurmenje?ref=br_rs"><li><i class="fa fa-facebook"></i></li></a>
+                                            <a href="https://www.instagram.com/kosanovic_carmelo7"><li><i class="fa fa-instagram"></i></li></a>
+                                        </ul>
+                                    </div>
+                                    <h1 style="text-align: center;text-decoration: underline">Kosanović Nemanja</h1>
+                                    <h2 style="text-align: center">Debugger</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div style="float: right;width:50%;height: 100%;margin-top: 13%">
+        <p style="text-align: center;font-size: 35px;width: 70%;margin: auto;padding-top: 5%;font-weight: bolder;">O nama</p>
+        <p style="text-align: center;font-size: 25px;width: 70%;margin: auto;padding-top: 2%;font-weight: bolder">
+            Tim Butchery je nastao onog trenutka kada smo dobili projektni zadatak iz predmeta "Objektno orijentisano programiranje 3" .
+            Naš tim čini 6 članova: Horvacki Davor, Buljovčić Milan, Mijatović Miloš, Bibić Nikola, Tešmanović Daniel i Nemanja Kosanović.
+        </p>
+    </div>
+
+
+
+
+</section>
+
+<!-- Section 5 End -->
+
+<!-- Section 6 -->
+
+<section class="section6" id="section6" style="background-image: url('pozadina.jpg');text-align: center;">
+
+    <div style="padding-top: 15%">
+
+    <a href="login.html" style="color: #3a3a3a"><button class="downloadbutton" style="text-align: center;">Prijavi se kao administrator &nbsp;<i class="fa fa-user" aria-hidden="true"></i>
+    </button></a>
+        <br/><br/><br/>
+
+    </div>
+</section>
+
+<!-- Section 6 End -->
+
+<!-- Sections End -->
+
+</body>
+</html>
