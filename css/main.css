@@ -1,0 +1,297 @@
+/* Top Navigation Shrink On Scroll */
+
+.navbar-custom {
+    margin-top: 10px;
+    padding: 20px 0;
+    border-bottom: none;
+    background: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #0258A4 !important;
+
+}
+
+.navbar-custom.top-collapse {
+    margin-top: 10px;
+    padding: 0;
+    background-color: #468cc2;
+}
+
+/* Top Navigation Shrink On Scroll End */
+
+/* Top Navigation Colors */
+
+.navbar-custom.top-collapse .navbar-nav>.active>a:focus,
+.navbar-custom.top-collapse .navbar-nav>.active>a:hover,
+.navbar-custom.top-collapse a:hover {
+    color: #FFFFFF !important;
+    background-color: transparent;
+}
+
+.navbar-custom.top-collapse .navbar-nav>.active>a {
+    color: #FFFFFF !important;
+    background-color: #366d97;
+}
+
+.hvr-bounce-to-right:before {
+    background: #014785;
+}
+
+.navbar-custom a {
+    color: #0258A4 !important;
+}
+
+.navbar-custom a:hover {
+    color: #014785 !important;
+}
+
+.navbar-custom.top-collapse a {
+    color: #FFFFFF !important;
+}
+
+/* Top Navigation Colors End */
+
+
+/* Toggle Button Colors */
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #0258A4;
+}
+
+.navbar-custom.top-collapse .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+
+.navbar-custom .navbar-toggle {
+    border: 2px solid #0258A4;
+}
+
+.navbar-custom.top-collapse .navbar-toggle {
+    border: 2px solid #FFFFFF;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background: none;
+}
+
+/* Toggle Button Colors End */
+
+/* Progress Animation On Scroll */
+
+.progressContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #FFFFFF;
+}
+
+.progress{
+    height: 10px;
+    width: 0%;
+    background: #0258A4;
+    border-radius: 0;
+}
+
+/* Progress Animation On Scroll End */
+
+/* Toggle Navigation Border Remove */
+
+.navbar-collapse {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Toggle Navigation Border Remove End */
+
+/* Sections */
+
+section {
+    height: 100vh;
+}
+
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section1 {
+    background-color: #ECECEC;
+}
+
+.section2,
+.section4,
+.section6 {
+    background-color: #E1E1E1;
+}
+
+.section3,
+.section5 {
+    background-color: #D1D1D1;
+}
+
+/* Sections End */
+
+/* Google Chrome Scrollbar */
+
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0258A4;
+}
+
+/* Google Chrome Scrollbar End */
+
+
+/* Top Navigation Margin & Padding Fix */
+
+ul.nav.navbar-nav.navbar-right {
+    margin: 0px -15px
+}
+
+.container-fluid {
+    padding-right: 15px;
+}
+
+/* Top Navigation Margin & Padding Fix End */
+.downloadbutton{
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 3%;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.32);
+    border-radius: 15px;
+    font-family: 'Cabin Sketch',cursive;
+    font-weight: bolder;
+}
+.downloadbutton:hover{
+    background-color: rgba(255, 255, 255, 0.55);
+    color: black;
+
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.team{
+    padding:75px 0;
+}
+h3.description{
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgba(0, 0, 0,0.1);
+    padding-bottom: 5px;
+    color: #5f5f5f;
+}
+.profile{
+    margin-top: 25px;
+}
+.profile h1{
+    font-weight: normal;
+    font-size: 22px;
+    margin:10px 0 0 0;
+    font-family: Calibri;
+    text-align: center;
+}
+.profile h2{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+.profile .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile .img-box:after{
+    content:"";
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.img-box ul{
+    position: absolute;
+    z-index: 2;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+    padding-left: 0px;
+    height: 0px;
+    margin:0px;
+    opacity: 0;
+}
+.profile .img-box:after, .img-box ul, .img-box ul li{
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.img-box ul li{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #88C425;
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+}
+.img-box a{
+    color:#fff;
+}
+.img-box:hover:after{
+    opacity: 1;
+}
+.img-box:hover ul{
+    opacity: 1;
+}
+.img-box ul a{
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+    border-color: #fff;
+    color: #88C425;
+}
+a{
+    color:#88C425;
+}
+a:hover{
+    text-decoration:none;
+    color:#519548;
+}
+i.red{
+    color:#BC0213;
+}
